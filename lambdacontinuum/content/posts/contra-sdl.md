@@ -1,0 +1,70 @@
++++
+date = '2025-01-23T17:57:25-05:00'
+title = 'Contra Standard Deontic Logic'
++++
+
+Since I’ve started publishing again, I decided to begin with a re-write of an old article titled something alon
+
+Bengt Hansson introduced the term _Standard Deontic Logic_ (referred to as SDL from here on) to denote deontic
+
+ℐ represents the set of deontically perfect worlds. Sentences valid in such a model coincide with the sentences
+
+  1. Op → \~O\~p,
+
+  2. Op ∧ Oq ↔ O(p ∧ q),
+
+  3. O(p ∨ q).
+
+
+
+
+The second axiom is equivalent to the combination of:
+
+  1. Op ∧ Oq → O(p ∧ q), i.e. agglomeration.
+
+  2. If Op and p logically implies q, then Oq, i.e. necessitation.
+
+
+
+
+Now that we’ve characterized SDL, why do I think it fails to properly model obligation? Consider the following
+
+First is the problem of free choice permission. Imagine your neighbor asked to borrow a crowbar. You showed him
+
+Such a principle doesn’t hold in SDL. An obvious solution might be to simply add the principle to the list of S
+
+  1. O(\~a ∧ \~b) → O\~a, Holds in SDL.
+
+  2. O\~(a ∨ b) → O\~a, Equiv to 1.
+
+  3. \~O\~a → \~O\~(a ∨ b), Contrapositive.
+
+  4. Pa → P(a ∨ b), Definition of P.
+
+  5. Pa → Pb, From added postulate.
+
+
+
+
+The axiom combined with the original postulates entails that if something is permitted, then everything else is permitted. This is intolerable, so we cannot solve the issue of free choice by turning the SDL permission operator into an operator of free choice permission.
+
+Some deontic logicians attempt to fix this by introducing a second permission operator Pc into SDL. One such definition is Pc(a ∨ b) ↔ Pa ∧ Pb. This definition is implausible, see the following derivation:
+
+  1. Pa → (Pa ∧ P(a ∨ b)), Pa → P(a ∨ b) holds in SDL.
+
+  2. Pa → Pc(a ∨ (a ∨ b)), Definition of Pc
+
+  3. Pa → Pc(a ∨ b).
+
+
+
+
+So, if you’re permitted to borrow a screwdriver, it follows that you have free choice to either borrow or steal the screwdriver. Other attempts to construct free choice operators have similarly absurd consequences. This is because such constructions rely on the _single sentence assumption_ —the idea that free choice between a and b can be represented as a property of a single sentence, namely a∨b.
+
+Under this assumption, logically equivalent sentences are interchangeable. Thus, if a ∨ b is equivalent to c ∨ d, then there is a free choice permission between a and b if and only if there is a free choice permission between c and d. This entails implausible results. Consider the case of the vegetarian’s free lunch. In a restaurant, I may have a meal with meat or a meal without meat. Therefore, I may either have a meal and pay for it or have a meal and not pay for it. This follows because: Let m denote having a meal with meat, v a meal without meat, and p paying. P(m ∨ v) is equivalent to P(((m ∨ v) ∧ p) ∨ ((m ∨ v) ∧ \~p)).
+
+Free choice permission illustrates an intuitive deontic principle that doesn’t hold in SDL. Conversely, SDL sometimes validates principles that are not plausible. We call such cases deontic paradoxes. Consider Åqvist's knower paradox: If a police officer ought to know that Smith robbed Jones, then Smith ought to rob Jones. This counterexample challenges the principle of necessitation. Von Wright correctly points out that all major deontic paradoxes rely on necessitation. However, necessitation follows from SDL’s semantic construction of possible worlds, so these paradoxes challenge SDL’s semantics itself.
+
+SDL also fails to model certain important kinds of obligations commonly discussed—namely, obligations of compensation, reparation, and prevention. Recall that under SDL’s semantics, obligatory acts in the actual world consist of actions that would occur in ideal worlds. Suppose there’s a drowning child in front of you. In a deontically ideal world, no child would drown, so you wouldn’t save a child from drowning in an ideal world because no drowning child would exist. It follows that you are not obligated to save the drowning child.
+
+Obligations of compensation, reparation, and prevention require the existence of actions that need be compensated, reparated, and prevented. But these are actions that are unideal and wouldn’t occur in an ideal world. Consequently, SDL’s semantics cannot model such obligations. This is a significant problem, as such obligations are central not only to everyday moral discourse but also to moral philosophy as a whole. As Holly Goldman puts it, SDL "ignores the fact that particular obligations flow from abstract principles together with contingent features of the world," and such features "do not appear in all the morally best worlds."

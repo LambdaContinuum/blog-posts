@@ -1,0 +1,4 @@
+[submodule "lambdacontinuum/public"]
+	path = lambdacontinuum/public
+	url = git@github.com:LambdaContinuum/lambdacontinuum.github.io.git
+	branch = main

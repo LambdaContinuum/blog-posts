@@ -1,0 +1,19 @@
+baseURL = 'https://lambdacontinuum.github.io/'
+languageCode = 'en-us'
+title = 'Lambda Continuum'
+theme = "hugo-xmin"
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html', 'rss']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+
+[params]
+  [params.author]
+    email = 'lambdacontinuum@proton.me'
+    name = 'Lambda Continuum'
+
+
