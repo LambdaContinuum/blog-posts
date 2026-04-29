@@ -1,6 +1,8 @@
 +++
 title = 'S4 is Inadequate as a Logic of Formal Provability'
 date = '2025-06-07'
+[params]
+    math = true
 +++
 
 Provability logics are modal logics used to investigate, surprise, surprise, various features of provability operators or predicates. The first candidate for a provability logic was the modal system S4.
@@ -33,7 +35,7 @@ This intuitive work is valuable, but more needs to be done. We need to ensure th
 
 Let’s provide an explication of provability. A natural candidate for the interpretation of □ is a formal provability predicate within a standard axiomatized mathematical theory. In fact, formal provability predicates are typically developed in the context of arithmetic. This is for a few reasons. For one, via Gödel coding, we can discuss numbers instead of expressions. Conveniently, arithmetic has many established results that can be borrowed and applied to syntax.
 
-We’ll use Peano Arithmetic (PA). The language of PA, denoted 𝓛PA, is a first-order language with identity and the symbols 0, S, +, and *. Each natural number _n_ has a corresponding numeral, ⟨ _n_ ⟩, in PA with the form S(…S(0)) with _n_ occurrences of _S_. Formulas in 𝓛PA can be classified by their complexity. Consider the formulas ∀x < t φ(x) and ∃x < t φ(x), the quantifiers in such formulas are are called _bounded_. Formulas with only bounded quantifiers are called Δ0​-formulas. The complexity hierarchy is as follows: Π0 = Σ0 =Δ0. Σn+1-formulas have the form ∃x1…∃xk(φ(x1, …, xk)), where φ(x1,…,xk) is Πn​. Πn+1​-formulas have the form ∀x1…∀xk(φ(x1, …, xk)), where φ(x1,…,xk) is Σn​.
+We’ll use Peano Arithmetic (PA). The language of PA, denoted 𝓛PA, is a first-order language with identity and the symbols 0, S, +, and *. Each natural number _n_ has a corresponding numeral, ⟨ _n_ ⟩, in PA with the form S(…S(0)) with _n_ occurrences of _S_. Formulas in 𝓛PA can be classified by their complexity. Consider the formulas \(\forall x \le t \phi (x)\) and ∃x < t φ(x), the quantifiers in such formulas are are called _bounded_. Formulas with only bounded quantifiers are called Δ0​-formulas. The complexity hierarchy is as follows: Π0 = Σ0 =Δ0. Σn+1-formulas have the form ∃x1…∃xk(φ(x1, …, xk)), where φ(x1,…,xk) is Πn​. Πn+1​-formulas have the form ∀x1…∀xk(φ(x1, …, xk)), where φ(x1,…,xk) is Σn​.
 
 All sentences in 𝓛PA are logically equivalent to, for some _n_ and _m_ , a Σn​ or Πm​ formula. However, the class of Σ1-formulas is particularly interesting, as a function is Turing-recognizable if it is Σ1​-definable. This means an axiomatic arithmetic that can handle Σ1​ sentences is expressive enough to prove statements concerning the syntax of a formal language within it.
 

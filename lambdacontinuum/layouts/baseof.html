@@ -25,7 +25,9 @@
 
     {{ partials.Include "site-style.html" . }}
     {{ partials.Include "site-scripts.html" . }}
-
+    {{ if .Param "math" }}
+     {{ partialCached "site-scripts.html" . }}
+    {{ end }}
     {{ block "favicon" . }}
       {{ partials.IncludeCached "site-favicon.html" . }}
     {{ end }}

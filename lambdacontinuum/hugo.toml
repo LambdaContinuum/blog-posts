@@ -18,7 +18,10 @@ pagerSize = 3
   author = 'Woarna'
   custom_css = ["fonts.css", "button.css"]
   featured_image_class = "cover bg-center"
-  favicon = "/images/icon.svg" 
+  favicon = "/images/icon.svg"
+  body_classes = "helvetica bg-near-white"
+  post_content_classes = "helvetica bg-near-white"
+  math = false
 
 [params.ananke.social.follow]
   new_window_icon = false
@@ -57,3 +60,13 @@ featured_image = "/images/2.jpg"
 [cascade.target]
 path = "/posts/**"
 kind = "page"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+

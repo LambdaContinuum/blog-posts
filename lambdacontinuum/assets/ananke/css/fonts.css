@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
-
-* {
-  font-family: 'Abel', sans-serif !important;
+h1 {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif !important;
 }
-
-a {
-  text-decoration: none !important;
-}
-
 

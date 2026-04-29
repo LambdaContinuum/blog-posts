@@ -1,9 +1,18 @@
 +++
 title = 'Trusting Our Future Selves'
 date = '2025-04-06'
+[params]
+    math = true
 +++
 
-Is it rational to believe what you would believe in the future? Consider the principle of reflection, where if one is rational then, letting Ct1 be their credence at time t1 and Ct2 be their credence at time t2, Ct1(H|Ct2(H) = x) = x.
+Is it rational to believe what you would believe in the future? Consider the principle of reflection, where if one is rational then, letting Ct1 be their credence at time t1 and Ct2 be their credence at time t2:
+
+\[
+\begin{aligned}
+KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
+JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
+\end{aligned}
+\]
 
 This is to say that if an agent is rational, then given that they know their later credence in some hypothesis H is x, the agent's earlier credence in H should be x. One may understand this principle as expressing one's trust in one's future self such that they should defer to them.
 
