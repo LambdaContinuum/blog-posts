@@ -1,0 +1,15 @@
+/* read more button */
+a.btn, a[class*="br1"], a.ba {
+  border: none !important;
+  background: none !important;
+  padding: 0 !important;
+  color: #888 !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 0.05em !important;
+  text-transform: uppercase !important;
+  box-shadow: none !important;
+}
+
+a.ba:hover {
+  color: #333 !important;
+}

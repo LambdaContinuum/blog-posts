@@ -1,0 +1,18 @@
++++
+title = 'Trusting Our Future Selves'
+date = '2025-04-06'
++++
+
+Is it rational to believe what you would believe in the future? Consider the principle of reflection, where if one is rational then, letting Ct1 be their credence at time t1 and Ct2 be their credence at time t2, Ct1(H|Ct2(H) = x) = x.
+
+This is to say that if an agent is rational, then given that they know their later credence in some hypothesis H is x, the agent's earlier credence in H should be x. One may understand this principle as expressing one's trust in one's future self such that they should defer to them.
+
+This may seem obvious to some, but it faces two types of counter-examples. The first is memory loss. Suppose t1 is 4/5/2025. Looking outside, I see the weather is rainy, and so my credence that the weather on 4/5/2025, is rainy is, let's say, 0.999. I'll suppose t2 is 4/5/2030, 5 years from now. If I was asked how likely it is the weather was rainy on 4/5/2025, I wouldn't recall that it was rainy; maybe my credence would be around, I don't know, 0.35? If I endorsed reflection, I should defer to my future self though, that is, Ct1(H|Ct2(H) = 0.35) = 0.35 but this seems clearly wrong. I should ignore my future forgetful state and hold Ct1(H|Ct2(H) = 0.35) = 0.999, so reflection cannot be a constraint on rationality. As long as one expects to forget in the future, they should violate reflection.
+
+David Christensen offers a hypothetical involving a drug called LSQ that, upon taking it, causes one to believe that they can fly by flapping their arms. So, after taking the drug at t2, Ct2(H) = 1, but knowing prior to taking the drug that you'll be taking it at t1, you obviously shouldn't believe you can fly, so Ct1(H|Ct2(H) = 1) = 0.001, which violates reflection. If one expects to be irrational in the future, they should violate reflection.
+
+So we have two instances of failure for reflection, but there does still feel something appealing about deferring to a version of ourselves with more experience, so maybe we should qualify reflection. Say in cases where we are sure we won't forget anything and we are sure our belief change will be rational, i.e., all our belief change will be the result of conditionalization, we should satisfy reflection.
+
+Now it turns out that the qualification against memory loss is redundant as an agent whose beliefs are always the result of conditionalization won't experience memory loss, so we can characterize our qualified reflection as saying agents should satisfy reflection if and only if they are certain they'll always be conditionalizers.
+
+The problem is clear: we aren't always conditionalizers. Quite the opposite, we're flawed agents susceptible to forgetting and irrationality, and so we ought not abide by reflection. Ideally rational agents, on the other hand, ought to satisfy reflection. The upshot of all this is the constraints ideal agents ought to satisfy come apart from the constraints actual people in the epistemic landscape should satisfy. There are ways in which we ought not emulate ideal epistemic agents.

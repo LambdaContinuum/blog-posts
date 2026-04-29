@@ -1,7 +1,7 @@
 baseURL = 'https://lambdacontinuum.github.io/'
 languageCode = 'en-us'
 title = 'Lambda Continuum'
-theme = "hugo-xmin"
+theme = "ananke"
 
 [outputs]
   home = ['html', 'rss']
@@ -11,9 +11,43 @@ theme = "hugo-xmin"
   taxonomy = ['html', 'rss']
   term = ['html', 'rss']
 
+[pagination]
+pagerSize = 3
+
 [params]
-  [params.author]
-    email = 'lambdacontinuum@proton.me'
-    name = 'Lambda Continuum'
+  author = 'Woarna'
+  custom_css = ["fonts.css", "button.css"]
+  featured_image_class = "cover bg-center"
+  favicon = "/images/icon.svg" 
 
+[params.ananke.social.follow]
+  new_window_icon = false
+  networks = [
+  "twitter",
+  "github",
+  "rss"
+  ]
 
+[params.ananke.social.twitter]
+  username = "woarna_is_right"
+
+[params.ananke.social.github]
+  username = "LambdaContinuum"
+
+[params.ananke.social.rss]
+  profileLink = "https://lambdacontinuum.github.io/index.xml"
+
+[[menus.main]]
+  name = "About"
+  url = "/about"
+  weight = 2
+
+[[menus.main]]
+  name = "Posts"
+  url = "/posts"
+  weight = 1
+
+[[menus.main]]
+  name = "Substack"
+  url = "https://lambdacontinuum.substack.com/"
+  weight = 3
