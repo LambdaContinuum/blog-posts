@@ -21,7 +21,7 @@ pagerSize = 3
   favicon = "/images/icon.svg"
   body_classes = "helvetica bg-near-white"
   post_content_classes = "helvetica bg-near-white"
-  math = false
+  math = true
 
 [params.ananke.social.follow]
   new_window_icon = false
