@@ -3,8 +3,9 @@
 <script>
   MathJax = {
     tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  // block
-      inlineMath: [['\\(', '\\)']]                  // inline
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],   // block
+      inlineMath: [['\\(', '\\)']],                  // inline
+      packages: {'[+]': ['ams', 'mathtools', 'bbox']}
     },
     loader:{
       load: ['ui/safe']

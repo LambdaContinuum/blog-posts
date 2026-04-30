@@ -7,17 +7,15 @@ Logical Positivism commits one to the thesis that meaningful thought is verifiab
 
 Assume, for reductio, that we know there are truths that no one knows and consider an epistemic logic that is at least system K4D:
 
-  1. K(P ∧ ¬KP)
+  1. \( K(P \land \neg KP)\)
 
-  2. Since our logic extends K, K(P ∧ ¬KP) ⊨ KP ∧ K¬KP
+  2. \( K(P \land \neg KP) \vDash KP \land K \neg KP \)
 
-  3. By (2), KP ⊨ KKP
+  3. \( KP \vDash KKP \)
 
-  4. This implies KKP ∧ K¬KP, which contradicts D.
+  4. From 2 and 3, \( KKP \land K \neg KP\), which contradicts D.
 
-  5. Therefore, we have derived a contradiction from our assumption, meaning it is impossible for the assumption to be true.
-
-  6. Hence, ¬◊K(P ∧ ¬KP), that is, there are truths that are impossible to know.
+  6. Therefore, \(\neg \Diamond K(P \land \neg KP)\), that is, there are truths that are impossible to know.
 
 
 

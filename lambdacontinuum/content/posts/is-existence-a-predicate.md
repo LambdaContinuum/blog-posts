@@ -7,7 +7,7 @@ You hear this argument frequently when discussing the ontological argument for G
 
 Okay, but what exactly does it mean for existence to be (or not to be) a predicate? To me it seems unclear between various interpretations.
 
-It is trivial to construct a first-order monadic predicate, termed ‘exists,’ such that exists := λx (∃y y = x). This ‘exists’ predicate is true of and only of things that exist and will abide by the syntactic rules of a predicate in first-order logic. So, why would it be incorrect to say that existence is a predicate?
+It is trivial to construct a first-order monadic predicate, termed ‘exists,’ such that \(\text{exists} \stackrel{ \scriptscriptstyle \mathrm{def}}{=} \lambda x (\exists y = x)\). This ‘exists’ predicate is true of and only of things that exist and will abide by the syntactic rules of a predicate in first-order logic. So, why would it be incorrect to say that existence is a predicate?
 
 Well, the dictum that existence isn’t a predicate originates with Kant, and he was writing before the progress in a logic of quantification that Frege, Russell, Quine, and others contributed to. It’s reasonable to assume that when Kant claimed existence isn’t a predicate, he meant something different.
 
