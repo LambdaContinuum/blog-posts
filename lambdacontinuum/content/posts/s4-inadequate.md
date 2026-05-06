@@ -1,8 +1,6 @@
 +++
 title = 'S4 is Inadequate as a Logic of Formal Provability'
 date = '2025-06-07'
-[params]
-    math = true
 +++
 
 Provability logics are modal logics used to investigate, surprise, surprise, various features of provability operators or predicates. The first candidate for a provability logic was the modal system S4.
@@ -10,11 +8,11 @@ Provability logics are modal logics used to investigate, surprise, surprise, var
 S4 is characterized by the following axioms:
 
 \[
-\begin{align}
-\text{(K)} \quad & \Box(\phi \Rightarrow \psi) \Rightarrow (\Box\phi \Rightarrow \Box\psi) \\
-\text{(M)} \quad & \Box\phi \Rightarrow \phi \\
-\text{(4)} \quad & \Box\phi \Rightarrow \Box\Box\phi
-\end{align}
+    \begin{align}
+        \text{(K)} \quad & \Box(\phi \Rightarrow \psi) \Rightarrow (\Box\phi \Rightarrow \Box\psi) \\
+        \text{(M)} \quad & \Box\phi \Rightarrow \phi \\
+        \text{(4)} \quad & \Box\phi \Rightarrow \Box\Box\phi\\
+    \end{align}
 \]
 
 and is closed under the following rules of inference:

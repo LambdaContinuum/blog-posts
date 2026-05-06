@@ -21,7 +21,7 @@ pagerSize = 3
   favicon = "/images/icon.svg"
   body_classes = "helvetica bg-near-white"
   post_content_classes = "helvetica bg-near-white"
-  math = true
+  math = false
 
 [params.ananke.social.follow]
   new_window_icon = false
@@ -55,6 +55,11 @@ pagerSize = 3
   url = "https://lambdacontinuum.substack.com/"
   weight = 3
 
+[[menus.main]]
+ name = "Resume"
+ url = "/resume.pdf"
+ weight = 4
+ 
 [[cascade]]
 featured_image = "/images/2.jpg"
 [cascade.target]
