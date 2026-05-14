@@ -15,7 +15,7 @@ theme = "ananke"
 pagerSize = 3
 
 [params]
-  author = 'Woarna'
+  author = 'Azad Ellafi'
   custom_css = ["fonts.css", "button.css"]
   featured_image_class = "cover bg-center"
   favicon = "/images/icon.svg"
