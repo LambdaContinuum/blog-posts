@@ -1,6 +1,8 @@
 +++
 title = 'Trusting Our Future Selves'
 date = '2025-04-06'
+categories = ["Philosophy", "Epistemology"]
+tags = ["reflection principle", "Bayesian epistemology", "rationality", "credence", "conditionalization", "Christensen", "memory", "ideal epistemology"]
 +++
 
 Is it rational to believe what you would believe in the future? Consider the principle of reflection, where if one is rational then, letting \(C_{t1}\) be their credence at time t1 and \(C_{t2}\) be their credence at time t2:

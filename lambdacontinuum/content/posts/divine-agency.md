@@ -1,6 +1,8 @@
 +++
 date = '2025-01-27T17:59:14-05:00'
 title = 'Divine Agency Without Failure'
+categories = ["Philosophy", "Philosophy of Religion", "Philosophy of Language"]
+tags = ["agency", "normativity", "intentionality", "Wittgenstein", "Frege", "God", "meaning", "transparency of meaning", "Bilgrami"]
 +++
 Philosophy of Religion has recently seen a surge of popularity in philosophy circles online, so I’ve decided to throw my hat in the ring. Here’s an argument against God being an agent.
 

@@ -1,6 +1,8 @@
 +++
 title = 'Is existence a predicate?'
 date = '2025-09-14'
+categories = ["Philosophy", "Logic", "Metaphysics"]
+tags = ["existence", "predicate", "ontological argument", "Kant", "Frege", "Ryle", "quantification", "first-order logic", "philosophy of language"]
 +++
 
 You hear this argument frequently when discussing the ontological argument for God. The theist may claim that existence is a perfection, while the skeptic counters by arguing that perfections must be properties and to be a property one must be able to predicate it of an object. However, ‘existence is not a predicate,’ merely a prerequisite for properties.

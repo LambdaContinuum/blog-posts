@@ -1,6 +1,8 @@
 +++
 title = 'Error Theory in Tension With Deontic Logic?' 
 date = '2026-03-16'
+categories = ["Philosophy", "Moral Philosophy", "Logic"]
+tags = ["error theory", "deontic logic", "metaethics", "permissibility", "SDL", "moral realism", "moral properties", "normativity"]
 +++
 
 I recently came across an [interesting paper](https://link.springer.com/article/10.1007/s10790-025-10076-3 ) on formal objections to error theory, this was the gist of it. Error Theorists are typically construed as being committed to moral judgements being the sorts of judgements that have propositional content, but such judgements never come out true because the moral properties required to render them true are not instantiated.

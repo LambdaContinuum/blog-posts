@@ -1,6 +1,8 @@
 +++
 title = 'Why Casual Sex is Wrong'
 date = '2025-06-08'
+categories = ["Philosophy", "Moral Philosophy"]
+tags = ["sexual ethics", "casual sex", "significance view", "Benatar", "permissibility"]
 +++
 
 As the world becomes more socially progressive, many people believe there is nothing wrong with casual sex. The approach to sexual ethics taken by many socially progressive individuals is that as long as sex is consensual, it is permissible. I can see why this view is popular as it presents a straightforward model of sexual relations and appears to restrict a lot of impermissible behavior. The idea that sex is permissible if and only if it is consensual allows casual sex to be permissible, since sex can indeed be both casual and consensual.

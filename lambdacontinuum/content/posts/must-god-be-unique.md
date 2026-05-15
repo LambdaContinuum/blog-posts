@@ -1,6 +1,8 @@
 +++
 title = 'Must God be Unique?'
 date = '2026-01-24'
+categories = ["Philosophy", "Philosophy of Religion", "Metaphysics"]
+tags = ["God", "omnipotence", "uniqueness", "Kalam", "Al-Taftazani", "divine nature", "necessary being", "modal logic"]
 +++
 
 Arguments in the Kalam tradition usually proceeded with the following three steps:

@@ -2,3 +2,6 @@
 	path = lambdacontinuum/public
 	url = git@github.com:LambdaContinuum/lambdacontinuum.github.io.git
 	branch = main
+[submodule "lambdacontinuum/themes/themes/hugo-texify3"]
+	path = lambdacontinuum/themes/themes/hugo-texify3
+	url = https://github.com/michaelneuper/hugo-texify3.git

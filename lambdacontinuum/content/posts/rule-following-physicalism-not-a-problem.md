@@ -1,6 +1,8 @@
 +++
 title = "Rule-Following Is Not Physicalism's Problem Alone"
 date = '2026-04-15'
+categories = ["Philosophy", "Philosophy of Mind", "Philosophy of Language"]
+tags = ["rule-following", "Kripke", "Wittgenstein", "physicalism", "meaning", "underdetermination", "skepticism"]
 +++
 Philip Goff recently wrote an [article](https://philipgoff.substack.com/p/can-calculators-add-can-brains-add) arguing against physicalism from rule-following.
 

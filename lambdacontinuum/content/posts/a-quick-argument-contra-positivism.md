@@ -1,6 +1,8 @@
 +++
 title = 'A Quick Argument Contra Positivism'
 date = '2025-06-11'
+categories = ["Philosophy", "Logic", "Epistemology"]
+tags = ["positivism", "modal logic", "Fitch's paradox", "verificationism", "knowability"]
 +++
 
 Logical Positivism commits one to the thesis that meaningful thought is verifiable. An entailment of such a thesis is that all true propositions, in principle, are verifiable and therefore knowable. Here’s a short argument from Fitch’s Knowability Paradox that serves to prove positivism incorrect.

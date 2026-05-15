@@ -1,6 +1,8 @@
 +++
 date = '2025-06-19'
 title = "I don't understand Hilbert's thesis"
+categories = ["Philosophy", "Logic", "Mathematics"]
+tags = ["Hilbert's thesis", "Church-Turing thesis", "Kripke", "first-order logic", "compactness theorem", "graph theory", "reachability", "computability"]
 +++
 
 Kripke has this argument he renders in favor of the Church-Turing Thesis that relies on what’s called Hilbert’s thesis. Hilbert’s thesis is “the idea that the steps of any mathematical argument can be expressed in a language based on first-order logic (with identity).”

@@ -1,6 +1,8 @@
 +++
 date = '2025-01-23T17:57:25-05:00'
 title = 'Contra Standard Deontic Logic'
+categories = ["Philosophy", "Moral Philosophy", "Logic"]
+tags = ["deontic logic", "SDL", "free choice permission", "Hansson", "Åqvist", "von Wright", "moral obligation", "deontic paradoxes", "permission", "possible worlds"]
 +++
 
 Bengt Hansson introduced the term Standard Deontic Logic (referred to as SDL from here on) to denote deontic logics characterized by the semantic principle of Ideal Worlds Intersection. This principle posits that there is a subset \(\mathcal{I}\) of the set \(\mathcal{W}\) of possible worlds, such that for all p, \(Op\) holds if and only if \(\forall w \in \mathcal{I}, p \in w\).

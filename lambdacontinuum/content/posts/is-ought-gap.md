@@ -1,6 +1,8 @@
 +++
 title = 'The “Is–Ought” Gap Is Not Merely a Matter of Logical Validity' 
 date = '2026-01-04'
+categories = ["Philosophy", "Moral Philosophy", "Logic"]
+tags = ["is-ought gap", "Hume", "deontic logic", "Prior", "ought implies can", "logical validity", "normativity"]
 +++
 
 I recently saw a construal of the “Is–Ought” gap in terms of mere logical validity. It was described as the inability to validly deduce a prescriptive premise from some set of descriptive premises. Viewed this way, the gap faces multiple possible counterexamples.

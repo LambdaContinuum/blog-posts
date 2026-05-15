@@ -1,6 +1,8 @@
 +++
 title = 'S4 is Inadequate as a Logic of Formal Provability'
 date = '2025-06-07'
+categories = ["Philosophy", "Logic", "Mathematics"]
+tags = ["provability logic", "modal logic", "S4", "Peano arithmetic", "Gödel", "incompleteness", "Löb's theorem", "intuitionism", "BHK semantics", "formal provability"]
 +++
 
 Provability logics are modal logics used to investigate, surprise, surprise, various features of provability operators or predicates. The first candidate for a provability logic was the modal system S4.

@@ -1,6 +1,8 @@
 +++
 date = '2025-09-21T21:15:13-04:00'
 title = 'God Ordains You to Two-Box'
+categories = ["Philosophy", "Epistemology"]
+tags = ["Newcomb's problem", "decision theory", "God", "two-boxing", "causal decision theory", "rational choice", "Schlesinger"]
 +++
 
 Consider the following argument:

@@ -1,6 +1,8 @@
 +++
 title = 'Contra Contextualism Refuting Skepticism'
 date = '2026-01-28'
+categories = ["Philosophy", "Epistemology"]
+tags = ["skepticism", "contextualism", "knowledge", "epistemic justification", "brain in a vat", "semantic contextualism", "rational support", "Frege", "transparency of meaning"]
 +++
 
 Radical skepticism can derive from multiple sources. One such source is the apparent paradox between one’s widespread everyday knowledge and the rational support provided by our perceptual experiences not seeming to favor the truth of our quotidian perceptual beliefs over radical skeptical scenarios such as being a brain in a vat, since the experiences a subject has under the radical skeptical scenarios are indistinguishable from everyday experiences _ex hypothesi_.
